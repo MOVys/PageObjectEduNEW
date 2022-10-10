@@ -15,4 +15,4 @@ class MainPage(BasePage):
         #assert self.is_element_present(*MainPageLocators.LOGIN_LINK), "!!!Login link is not presented"
         assert self.is_element_present(By.CSS_SELECTOR, "#login_link"), "!!!Login link is not presented"
        
-        
+    
